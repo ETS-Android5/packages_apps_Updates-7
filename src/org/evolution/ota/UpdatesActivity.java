@@ -140,7 +140,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         androidVersion.setText(String.format(getResources()
                 .getString(R.string.android_version, Build.VERSION.RELEASE)));
         evolutionVersion.setText(String.format(getResources()
-                .getString(R.string.evolution_version, SystemProperties.get("org.pex.version"))));
+                .getString(R.string.evolution_version, SystemProperties.get("org.pixelair.version"))));
         securityVersion.setText(String.format(getResources()
                 .getString(R.string.security_patch_level), Utils.getSecurityPatchLevel()));
         lastUpdateCheck.setText(String.format(getResources()
